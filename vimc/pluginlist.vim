@@ -1,8 +1,17 @@
 "HTML5.vim
 Plug 'othree/html5.vim'
 
+"Linting
+Plug 'w0rp/ale'
+
+
 "vim Javascript & ES6
 Plug 'pangloss/vim-javascript'
+
+"vim Prettier 
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 "Vim jsx pretty
 Plug 'maxmellon/vim-jsx-pretty'

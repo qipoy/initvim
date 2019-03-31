@@ -4,6 +4,10 @@ let g:NERDCustomDelimiters={
 \}
 
 
+"ele Config
+let g:ale_sign_error = '●'
+let g:ale_sign_warning = '⚠'
+
 
 "Syntastic
 set statusline+=%#warningmsg#
@@ -14,10 +18,14 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_enable_signs=1
-let g:syntastic_error_symbol='>>'
+let g:syntastic_error_symbol='●'
+let g:ale_sign_warning = '⚠'
 let g:syntastic_warning_symbol='⚠'
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_enable_perl_checker = 1
+
+
+
 
 "Tmux
 "Credit joshdick
@@ -109,8 +117,10 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_error_symbol = '🔴'
-let g:syntastic_style_error_symbol = '⁉️'
+let g:syntastic_error_symbol = '●'
+
+
+let g:syntastic_style_error_symbol = '●'
 let g:syntastic_warning_symbol = '⚠️'
 let g:syntastic_style_warning_symbol = '💩'
 highlight link SyntasticErrorSign SignColumn
