@@ -165,9 +165,6 @@ colorscheme onedark
 let g:one_allow_italics = 1
 "================================================
 
-
-
-
 "split
 set splitbelow
 set splitright
@@ -182,4 +179,3 @@ let python_highlight_all=1
 
 let g:python_host_prog = '/full/path/to/neovim2/bin/python'
 let g:python3_host_prog = '/full/path/to/neovim3/bin/python'
-

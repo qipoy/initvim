@@ -4,6 +4,8 @@ Plug 'othree/html5.vim'
 "Linting
 Plug 'w0rp/ale'
 
+"flowType
+Plug 'flowtype/vim-flow'
 
 "vim Javascript & ES6
 Plug 'pangloss/vim-javascript'
@@ -24,6 +26,15 @@ Plug 'vim-syntastic/syntastic'
 
 "vim JSX
 Plug 'mxw/vim-jsx'
+
+"jsx comment
+Plug 'nono/vim-handlebars'
+Plug 'tpope/vim-commentary'
+"Read Documentation at https://github.com/tpope/vim-commentary/issues/68
+
+"Typescript === DISABLED
+" Plug 'leafgarland/typescript-vim'
+" Plug 'peitalin/vim-jsx-typescript'
 
 "Vim react commenter
 Plug '/mvolkmann/vim-react'
