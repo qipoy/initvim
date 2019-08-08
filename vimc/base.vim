@@ -1,5 +1,8 @@
 syntax on
-filetype plugin indent on
+
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
 nmap <silent> <leader>x :!google-chrome-stable %<CR>
 set number	" set/viewing number in vim
 set nobackup " No Need backup for confirmation *.swp. its bullshit!

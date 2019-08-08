@@ -127,6 +127,4 @@ highlight link SyntasticErrorSign SignColumn
 highlight link SyntasticWarningSign SignColumn
 highlight link SyntasticStyleErrorSign SignColumn
 highlight link SyntasticStyleWarningSign SignColumn
-
 let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS

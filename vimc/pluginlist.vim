@@ -1,3 +1,16 @@
+"vim Graphql
+Plug 'jparise/vim-graphql'
+
+"styled-components
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+"postcss scss
+Plug 'JulesWang/css.vim'
+Plug 'alexlafroscia/postcss-syntax.vim'
+
+"elixir Dev
+Plug 'elixir-editors/vim-elixir'
+
 "HTML5.vim
 Plug 'othree/html5.vim'
 
@@ -23,6 +36,8 @@ Plug 'ap/vim-css-color'
 
 "vim syntastic
 Plug 'vim-syntastic/syntastic' 
+
+Plug 'moll/vim-node'
 
 "vim JSX
 Plug 'mxw/vim-jsx'
@@ -63,7 +78,7 @@ Plug 'kien/ctrlp.vim'
 "VIM-Airline
 Plug 'bling/vim-airline'
 
-"Vim Surround
+"Vim Surrounj
 Plug 'tpope/vim-surround'
 
 " Emmet for html and css plugin
