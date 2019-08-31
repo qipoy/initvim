@@ -1,4 +1,7 @@
-"vim Graphql
+"python
+Plug 'Valloric/YouCompleteMe'
+
+"vim GraphqlnInstall +qall
 Plug 'jparise/vim-graphql'
 
 "styled-components

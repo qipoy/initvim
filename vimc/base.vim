@@ -180,5 +180,5 @@ nnoremap <C-H> <C-W><C-H>
 let python_highlight_all=1
 
 
-let g:python_host_prog = '/full/path/to/neovim2/bin/python'
-let g:python3_host_prog = '/full/path/to/neovim3/bin/python'
+"let g:python_host_prog = '/full/path/to/neovim2/bin/python'
+"let g:python3_host_prog = '/full/path/to/neovim3/bin/python'

@@ -1,3 +1,14 @@
+"python Config
+set encoding=utf-8
+"youcomplateme
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let python_highlight_all=1
+"----------------------------------
+
+"pretier
+let g:prettier#config#semi = 'false'
+
 "JSX commenter
 let g:NERDCustomDelimiters={
 	\ 'javascript': { 'left': '//', 'right': '', 'leftAlt': '{/*', 'rightAlt': '*/}' },
@@ -23,9 +34,8 @@ let g:ale_sign_warning = '⚠'
 let g:syntastic_warning_symbol='⚠'
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_enable_perl_checker = 1
-
-
-
+"let g:syntastic_python_checkers = ['python']
+let g:syntastic_python_checkers = ['pylint']
 
 "Tmux
 "Credit joshdick
