@@ -1,6 +1,3 @@
-"Golang
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
 "autoComplate
 Plug 'Valloric/YouCompleteMe'
 
