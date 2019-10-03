@@ -1,5 +1,16 @@
 "autoComplate
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
+
+"Golang Plugin
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+"elixir formatter vim
+Plug 'mhinz/vim-mix-format'
+
+"purple theme
+Plug 'Rigellute/shades-of-purple.vim'
+"vim ruby
+Plug 'vim-ruby/vim-ruby'
 
 "vim GraphqlnInstall +qall
 Plug 'jparise/vim-graphql'

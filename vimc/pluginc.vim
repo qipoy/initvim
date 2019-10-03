@@ -1,10 +1,15 @@
 "python Config
 set encoding=utf-8
 "youcomplateme
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-let python_highlight_all=1
+ " let g:ycm_autoclose_preview_window_after_completion=1
+ " map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+ " let python_highlight_all=1
 "----------------------------------
+
+"elixir plugin config formatter
+let g:mix_format_on_save = 1
+let g:mix_format_options = '--check-equivalent'
+let g:mix_format_silent_errors = 1
 
 "pretier
 let g:prettier#config#semi = 'false'

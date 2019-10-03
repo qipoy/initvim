@@ -162,11 +162,20 @@ set foldlevel=2
 
 
 "================================================
-" Colorscheme One Dark
+"Colorscheme OneDark
 set background=dark
 colorscheme onedark
 let g:one_allow_italics = 1
 "================================================
+
+
+"================================================
+"theme for purple
+"syntax enable
+"colorscheme shades_of_purple
+"let g:shades_of_purple_airline = 1
+"let g:airline_theme='shades_of_purple'
+"===========================================
 
 "split
 set splitbelow
