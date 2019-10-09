@@ -1,16 +1,11 @@
 "autoComplate
 " Plug 'Valloric/YouCompleteMe'
 
-"Golang Plugin
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
-"elixir formatter vim
-Plug 'mhinz/vim-mix-format'
+"vim crytal
+Plug 'rhysd/vim-crystal'
 
 "purple theme
 Plug 'Rigellute/shades-of-purple.vim'
-"vim ruby
-Plug 'vim-ruby/vim-ruby'
 
 "vim GraphqlnInstall +qall
 Plug 'jparise/vim-graphql'
@@ -21,9 +16,6 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 "postcss scss
 Plug 'JulesWang/css.vim'
 Plug 'alexlafroscia/postcss-syntax.vim'
-
-"elixir Dev
-Plug 'elixir-editors/vim-elixir'
 
 "HTML5.vim
 Plug 'othree/html5.vim'
